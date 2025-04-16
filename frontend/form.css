@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f8f9fa;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+}
+/* Navbar */
+.navbar {
+    background-color: #4cced5;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .title {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    margin-left: 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 15px;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+/* Header Section */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.logo-text {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 100px; /* Adjust as needed */
+    margin-right: 15px;
+}
+
+.college-text h1 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.autonomous {
+    color: rgb(25, 15, 225);
+    font-weight: bold;
+}
+
+
+/* Notice Box */
+.notice {
+    border: 1px solid black;
+    background-color: white;
+    padding: 15px;
+    margin:auto;
+    width: 60%;
+    margin-bottom: 20px;
+    border-radius: 10px; 
+}
+
+.notice ul {
+    padding-left: 20px; /* Indent list items */
+}
+
+.notice li {
+    margin-bottom: 4px; /* Adds spacing between each point */
+}
+
+/* Container */
+.container {
+    background-color: white;
+    padding: 20px;
+    border: 2px solid lightseagreen;
+    width: 90%;
+    margin: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.container h2{
+    text-align: center; /* Centers text horizontally */
+    font-weight: bold; /* Optional: Makes the text bold */
+    margin-bottom: 20px;
+
+}
+
+/* Form Layout */
+.form-row {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.form-group {
+    flex: 1;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input, .form-group select, .form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Full-width Grievance Box */
+.full-width {
+    width: 100%;
+}
+
+/* Submit Button */
+.btn {
+    background-color: #40c4ff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    display: block;
+    margin: 15px auto 0;
+    border-radius: 4px;
+}
+
+.btn:hover {
+    background-color: #00acc1;
+}
+
+footer {
+    background-color:lightseagreen;
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+    position: relative;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer a {
+    color: #ffcc00;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+h1{
+    color:black;
+}
+
+

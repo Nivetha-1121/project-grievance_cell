@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grievance Registration</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+
+    <!-- Top Header Section -->
+    <div class="navbar">
+        <span class="title">Resolve and Rebuild Hub</span>
+        <div class="nav-links">
+            <a href="home.html">Back to Home</a>
+        </div>
+    </div>
+    <!-- Logo & College Name Section -->
+    <div class="header">
+        <div class="header-container">
+            <div class="logo-text">
+                <img src="C:\Users\nivet\Downloads\NPRlogo2.png" alt="NPR Logo" class="logo">
+                <div class="college-text">
+                    <h1>NPR College of Engineering and Technology</h1>
+                    <h3>(<span class="autonomous">An Autonomous Insitution</span>)</h3>
+                </div>
+            </div>
+            </div></div>
+
+    <!-- Notice Box -->
+    <div class="notice">
+        <strong>Note:</strong>
+        <ul>
+            <li>You can register your grievance by filling the form below.</li>
+            <li>Your grievance will be forwarded to the admin.</li>
+            <li>You can check your grievance status on the home page.</li>
+            <li>The grievance should be valid; only then will it be recognized.</li>
+        </ul>
+    </div>
+
+    <!-- Grievance Registration Form -->
+    <div class="container">
+        <h2>Grievance Registration</h2>
+        <form id="grievanceForm" onsubmit="sendGrievance(event)">
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="name">Full Name <span style="color: red;">*</span></label>
+                   
+                    <input type="text" id="name" placeholder="Enter Your Name" required>
+                </div>
+                <div class="form-group">
+                    <label for="regNumber">Register Number/Staff Id<span style="color: red;">*</span></label>
+                    <input type="text" id="regNumber" placeholder="Enter Your Register Number">
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="department">Department <span style="color: red;">*</span></label>
+                    
+                    <select id="department" required>
+                        <option value="">Select Department</option>
+                        <option value="IT">IT</option>
+                        <option value="CSE">CSE</option>
+                        <option value="AIDS">AIDS</option>
+                        <option value="EEE">EEE</option>
+                        <option value="ECE">ECE</option>
+                        <option value="Mechanical">Mechanical</option>
+                        <option value="Civil">Civil</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="year">Year <span style="color: red;">*</span></label>
+                    <select id="year">
+                        <option value="">-- Select Year --</option>
+                        <option value="I">I</option>
+                        <option value="II">II</option>
+                        <option value="III">III</option>
+                        <option value="IV">IV</option>
+                        <option value="Null">Null</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="form-row">
+            <div class="form-group">
+                <label for="designation">Designation <span style="color: red;">*</span></label>
+                    <select id="designation">
+                        <option value="">-- Select Designation --</option>
+                        <option value="Student">Student</option>
+                        <option value="Teaching Faculty">Teaching Faculty</option>
+                        <option value="Non-Teaching Faculty">Non-Teaching Faculty</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="category">Category <span style="color: red;">*</span></label>
+                    
+                    <select id="category">
+                        <option value="">-- Select Category --</option>
+                        <option value="Academic">Academic</option>
+                        <option value="Hostel">Hostel</option>
+                        <option value="Transport">Transport</option>
+                        <option value="Canteen">Canteen</option>
+                        <option value="Placement">Placement</option>
+                        <option value="Others">Others</option>
+                    </select>
+                </div>
+            </div>
+           
+
+            <div class="form-group full-width">
+                <label for="grievance">Write Your Grievance</label>
+                <textarea id="grievance" rows="5" placeholder="Write your grievance here..."></textarea>
+            </div>
+
+            <button type="submit" class="btn">Submit</button>
+        </form>
+    </div>
+
+    <footer>
+        <p>Contact us at: <a href="nprcet@gmail.com">nprcet@gmail.com</a></p>
+        <p>&copy; 2025 NPRCET Resolve and Rebuild Hub. All rights reserved.</p>
+    </footer>
+    <script src="form.js"></script>
+</body>
+</html>
+
+
+
+

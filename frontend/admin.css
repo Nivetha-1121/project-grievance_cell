@@ -1,0 +1,169 @@
+/* General Styles */
+body {
+    font-family: Arial,  sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #4cced5;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .title {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    margin-left: 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 15px;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+/* Header Section */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #ffffff;
+}
+
+.logo-text {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 100px; /* Adjust as needed */
+    margin-right: 15px;
+}
+
+.college-text h1 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.autonomous {
+    color: rgb(25, 15, 225);
+    font-weight: bold;
+}
+
+/* Filter Section */
+.filter {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.filter select {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.apply-btn {
+    background-color: #17a2b8;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.apply-btn:hover {
+    background-color: #138496;
+}
+
+/* Table */
+.table-title {
+    text-align: center;
+    color: blue;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+table {
+    width: 95%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: #4cced5;
+    color: white;
+    
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 12px;
+    text-align: center;
+}
+
+tbody td {
+    background-color: #ffffff;
+}
+
+.status-dropdown {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.clear-btn {
+    background-color:#17a2b8; 
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 10px; 
+    transition: background 0.3s ease;
+}
+
+.clear-btn:hover {
+    background-color: #138496;
+}
+
+.status-dropdown {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: white;
+    cursor: pointer;
+}
+
+.submit-btn {
+    display: block;
+    margin-left: 90%;
+    background-color: lightseagreen;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: darkcyan;
+}
+
+.table-title {
+    text-align: center;
+    color:blue;
+}
+

@@ -1,0 +1,164 @@
+/* General Styles */
+body {
+  font-family: 'Times New Roman', Times, serif, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+}
+
+/* Navbar */
+/* Navbar */
+.navbar {
+  background-color: #2ec4b6;
+  padding: 10px;
+}
+
+.navbar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-evenly; /* Ensures equal spacing */
+  align-items: center;
+}
+
+.navbar ul li {
+  display: inline;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: large;
+  padding: 5px 20px; /* Adds space around each item */
+  display: inline-block;
+}
+
+/* Header */
+.header {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  width: 60px;
+  margin-right: 15px;
+}
+
+.college-name h2 {
+  font-size: 22px;
+  margin: 0;
+}
+
+.autonomous {
+  color: blue;
+  font-weight: bold;
+}
+
+
+/* Page Content */
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+h2, h3 {
+  color: lightseagreen;
+}
+
+/* Key Members Section */
+.members-section {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: white;
+  padding: 15px;
+  width: 220px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  border: 2px solid lightseagreen;
+}
+
+.card p {
+  margin: 5px 0;
+}
+
+/* Table Styling */
+.table-container {
+  width: 80%;
+  margin: 20px auto;
+  text-align: left;
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 2px solid lightseagreen;
+}
+
+th, td {
+  border: 1px solid lightseagreen;
+  padding: 12px;
+  text-align: left;
+  font-size: 16px;
+}
+
+th {
+  background-color: lightseagreen;
+  color: white;
+  font-weight: bold;
+}
+
+/* Adjusting column widths */
+th:nth-child(1), td:nth-child(1) {
+  width: 10%;
+  text-align: center;
+}
+
+th:nth-child(2), td:nth-child(2) {
+  width: 40%;
+}
+
+th:nth-child(3), td:nth-child(3) {
+  width: 50%;
+}
+
+footer {
+  background-color:lightseagreen;
+  color: white;
+  text-align: center;
+  padding: 10px 10px;
+  position: relative;
+}
+
+footer p {
+  margin: 5px 0;
+}
+
+footer a {
+  color: #ffcc00;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+h3{
+  color:blue;
+}

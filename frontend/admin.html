@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grievance Management</title>
+  <link rel="stylesheet" href="admin.css">
+</head>
+
+<body>
+  <div class="navbar">
+    <span class="title">Resolve and Rebuild Hub</span>
+    <div class="nav-links">
+      <a href="home.html">Back to Home</a>
+    </div>
+  </div>
+
+  <div class="header">
+    <div class="header-container">
+      <div class="logo-text">
+        <img src="C:\Users\nivet\Downloads\NPRlogo2.png" alt="NPR Logo" class="logo">
+        <div class="college-text">
+          <h1>NPR College of Engineering and Technology</h1>
+          <h4>(<span class="autonomous">An Autonomous Institution</span>)</h4>
+        </div>
+      </div>
+
+      <div class="filter">
+        <label for="filter-main"><b>Filter</b></label>
+        <select id="filter-main">
+          <option>--Select--</option>
+          <option>Year</option>
+          <option>Department</option>
+          <option>Designation</option>
+          <option>Category</option>
+        </select>
+        <select id="filter-sub">
+          <option>--Select Sub-category--</option>
+        </select>
+        <button class="apply-btn">Apply</button>
+        <button class="clear-btn">Clear Filter</button>
+      </div>
+    </div>
+
+    <h1 class="table-title">Grievances Received</h1> <button id="submit-btn" class="submit-btn">Update Status</button>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Register Number</th>
+          <th>Department</th>
+          <th>Year</th>
+          <th>Designation</th>
+          <th>Category</th>
+          <th>Grievance</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody id="complaintTable">
+      </tbody>
+    </table>
+
+
+    <script src="admin.js"></script>
+    <script src="filter.js"></script>
+</body>
+
+</html>

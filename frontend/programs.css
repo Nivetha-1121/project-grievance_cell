@@ -1,0 +1,206 @@
+/* General Styles */
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+/* Navbar */
+/* Navbar */
+.navbar {
+    background-color: #2ec4b6;
+    padding: 10px;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly; /* Ensures equal spacing */
+    align-items: center;
+}
+
+.navbar ul li {
+    display: inline;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    padding: 5px 20px; /* Adds space around each item */
+    display: inline-block;
+}
+
+/* Header */
+.header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    width: 60px;
+    margin-right: 15px;
+}
+
+.college-name h2 {
+    font-size: 22px;
+    margin: 0;
+}
+
+.autonomous {
+    color: blue;
+    font-weight: bold;
+}
+
+/* Main Container */
+.container {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Sections */
+.section {
+    margin-bottom: 30px;
+}
+
+.section h2 {
+    font-size: 22px;
+    color: lightseagreen;
+    border-bottom: 3px solid lightseagreen;
+    padding-bottom: 8px;
+    margin-bottom: 15px;
+}
+
+/* Minutes List */
+.minutes-list ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.minutes-list ul li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    padding: 8px;
+    background: #f9f9f9;
+    border-left: 4px solid lightseagreen;
+    transition: background 0.3s ease;
+}
+
+.minutes-list ul li:hover {
+    background: #e9f3ff;
+}
+
+/* Program Details Section */
+.program {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.program .details {
+    flex: 1;
+    padding: 20px;
+}
+
+.program .details h3 {
+    font-size: 20px;
+    color: lightseagreen;
+    margin-bottom: 10px;
+}
+
+.program .details p {
+    font-size: 16px;
+    color: #444;
+    margin: 5px 0;
+}
+
+.program .details .date {
+    font-size: 14px;
+    color: white;
+    background-color:lightseagreen;
+    padding: 6px 12px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+/* Image Section */
+.program .image {
+    flex: 0 0 250px;
+    padding: 10px;
+}
+
+.program .image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+    border: 3px solid lightseagreen;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .program {
+        flex-direction: column;
+    }
+
+    .program .image {
+        flex: 1;
+        text-align: center;
+    }
+
+    .program .image img {
+        max-width: 80%;
+    }
+}
+
+h3 {
+    color: blue;
+}
+
+.container-fluid{
+    width: 100%;
+    position: relative; /* or fixed if needed */
+    left: 0;
+    bottom: 0;
+    background-color: #009688; /* Adjust to your theme */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer {
+    background-color:lightseagreen;
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+    position: relative;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer a {
+    color: #000000;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

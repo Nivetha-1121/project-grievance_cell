@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portal Login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="container">
+        <div class="login-box">
+            <h2>Login</h2>
+            <p>Enter your account details</p>
+            <form onsubmit="return handleLogin(event)">
+                <div class="input-group">
+                    <input type="text" id="username" placeholder="Username" required>
+                </div>
+                <div class="input-group password-field">
+                    <input type="password" id="password" placeholder="Password" required>
+                    <span class="toggle-password" onclick="togglePassword()">👁</span>
+                </div>
+                <a href="#" class="forgot-password">Forgot Password?</a>
+                <button type="submit" class="btn">Login</button>
+            </form>
+            <button onclick="goHome()" class="home-btn">Back to Home</button>
+        </div>
+        <div class="banner">
+            <h1>Welcome to <br> <span>Resolve and Rebuild Hub of NPRCET</span></h1>
+            <p>Login to register your grievance</p>
+        </div>
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>

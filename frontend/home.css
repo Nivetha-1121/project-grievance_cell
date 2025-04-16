@@ -1,0 +1,258 @@
+/* General Styles */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    background-color: darkcyan;
+    color: white;
+    padding: 0px 0px;
+}
+
+header h1 {
+    margin: 20px 0;
+    color:white;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+    background-color:darkcyan;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+/* Header Slider */
+.header-slider {
+    display: flex;
+    overflow: hidden;
+    height: 250px;
+    width:fit-content;
+  
+    position: relative;
+}
+
+.header-image {
+    min-width: 80%;
+    transition: transform 1s ease-in-out;
+}
+
+/* Customize individual header images */
+.header-image-1 {
+    display: flex;
+}
+
+.header-image-2 {
+    display: flex;
+    height:400px;
+}
+
+.header-image-3 {
+    display: flex;
+}
+
+/* About Us Section */
+.about-section {
+    padding: 20px;
+    background-color:floralwhite;
+  }
+  
+  .about-section button {
+    background-color: lightseagreen;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  .about-section button:hover{
+    background-color: lightgreen;
+
+  }
+
+
+/* Footer */
+footer {
+  background-color:lightseagreen;
+  color: white;
+  text-align: center;
+  padding: 10px 10px;
+  position: relative;
+}
+
+footer p {
+  margin: 5px 0;
+}
+
+footer a {
+  color: #070707;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.register-section {
+    padding: 20px;
+    text-align: center;
+    background-color: floralwhite;
+  }
+  
+  .register-section .grievance-options {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .register-section a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+  }
+  
+  .register-section img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    border: 2px solid black; 
+
+  }
+
+  .semicircle-header {
+    background:lightcyan;
+    color: black;
+    text-align: center;
+    padding: 5px 10px; /* Reduced height */
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+    border-bottom-left-radius: 50% 30px; /* Smaller curve */
+    border-bottom-right-radius: 50% 30px; /* Smaller curve */
+    outline: 3px solid darkcyan;
+}
+h2{
+  text-align: center;
+  color:black;
+}
+h3{
+  color:brown;                                          
+}
+
+/* General Page Styling */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+}
+
+/* Header Design */
+.container h1 {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  padding: 20px;
+  background-color: #5cd1cf;
+  margin: 0;
+  color: black;
+}
+
+/* Form Container */
+.form-container {
+  background-color: #fbfbfb;
+  width: 30%;
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 30px;
+  text-align: center;
+  border: 2px solid lightseagreen;
+}
+
+/* Input Fields */
+.input-field {
+  width: 70%;
+  padding: 15px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  background-color: #d3d3d3;
+  font-size: 16px;
+  text-align: center;
+}
+
+/* Captcha Container */
+.captcha-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.captcha-label {
+  font-weight: bold;
+  font-style: italic;
+  padding-right: 5px;
+}
+
+.captcha-code {
+  font-weight: bold;
+  background: #e6e6e6;
+  padding: 5px 10px;
+  border-radius: 3px;
+}
+
+/* Submit Button */
+.submit-btn {
+  background-color: #5cd1cf;
+  color: black;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+/* Status Box */
+.status-container {
+  background-color: #fefefe;
+  width: 50%;
+  margin: 20px auto;
+  padding: 15px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.status-text {
+  font-style: italic;
+  font-size: 16px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+  scroll-margin-top: 100px; /* Adjust this value if needed */
+}
+
+#toast-container {
+  top: 10px !important;  /* Adjust distance from the top */
+  left: 60%;
+  transform: translateX(-50%);
+  position: fixed;
+}
